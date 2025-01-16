@@ -25,7 +25,7 @@ const ElectrolyteMonitor = () => {
   useEffect(() => {
     // Firebase configuration
     const firebaseConfig = {
-      apiKey: "AIzaSyCiYzzFyiVdvEyR7fhoZ4J2ULAcqYMSrLc",
+      apiKey: process.env.APIKEY,
       authDomain: "iot-electrolyte.firebaseapp.com",
       databaseURL: "https://iot-electrolyte-default-rtdb.firebaseio.com",
       projectId: "iot-electrolyte",
