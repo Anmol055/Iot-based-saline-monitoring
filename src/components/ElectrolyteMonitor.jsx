@@ -25,14 +25,21 @@ const ElectrolyteMonitor = () => {
   useEffect(() => {
     // Firebase configuration
     const firebaseConfig = {
-      apiKey: process.env.APIKEY,
-      authDomain: "iot-electrolyte.firebaseapp.com",
-      databaseURL: "https://iot-electrolyte-default-rtdb.firebaseio.com",
-      projectId: "iot-electrolyte",
-      storageBucket: "iot-electrolyte.appspot.com",
-      messagingSenderId: "871818439814",
-      appId: "1:871818439814:web:749e4aab57c36e08e7f507",
-      measurementId: "G-KGL4LX9T2G"
+
+      apiKey: "AIzaSyDwXOy95i8c1-2Ujh77CwHUaXCiGmMrBSk",
+    
+      authDomain: "electrolyte-monitoring-iot.firebaseapp.com",
+    
+      databaseURL: "https://electrolyte-monitoring-iot-default-rtdb.asia-southeast1.firebasedatabase.app",
+    
+      projectId: "electrolyte-monitoring-iot",
+    
+      storageBucket: "electrolyte-monitoring-iot.firebasestorage.app",
+    
+      messagingSenderId: "456032801930",
+    
+      appId: "1:456032801930:web:c0c2079d5171fb780e4973"
+    
     };
 
     // Initialize Firebase
